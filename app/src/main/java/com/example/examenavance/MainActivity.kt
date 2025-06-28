@@ -3,6 +3,10 @@ package com.example.examenavance
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
+
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 

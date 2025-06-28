@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514621603510",
+    "project_id": "luisvexamenyavance",
+    "storage_bucket": "luisvexamenyavance.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514621603510:android:ef39d28aee272c31d37017",
+        "android_client_info": {
+          "package_name": "com.example.examenavance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXQanedsppZ22ek9grhxp27UmSu5alpzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
