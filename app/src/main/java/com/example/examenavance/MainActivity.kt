@@ -1,6 +1,8 @@
 package com.example.examenavance
 
 import android.os.Bundle
+import android.widget.TextView
+import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.analytics.FirebaseAnalytics
@@ -21,6 +23,18 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }*/
+
+        val username = intent.getStringExtra("USERNAME")
+        /*val textViewWelcome = findViewById<TextView>(R.id.textViewWelcome)
+        textViewWelcome.text = "¡Bienvenido, $username!"*/
+
+        val buttonLogout = findViewById<Button>(R.id.buttonLogout)
+        buttonLogout.setOnClickListener {
+            // Regresa al login
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
 
