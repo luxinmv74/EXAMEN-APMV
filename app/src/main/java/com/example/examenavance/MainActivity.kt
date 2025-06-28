@@ -1,6 +1,8 @@
 package com.example.examenavance
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
@@ -33,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             // Regresa al login
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-            finish()
+            //finish()
         }
     }
 }
